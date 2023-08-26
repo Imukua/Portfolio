@@ -39,36 +39,38 @@
       <div class="section__pic-container">
         <img src="./assets/profile-pic.png" alt="Ian Mukua Profile picture" />
       </div>
+      
       <div class="section__text">
-        <p class="section__text_p1">Hello I'm</p>
-        <h1 class="Title">Ian Mukua</h1>
-        <p class="section__text__p2">Fullstack developer</p>
+          <p class="section__text__   p1">Hello, I'm</p>
+          <h1 class="Title">Ian Mukua</h1>
+          <p class="section__text__p2">Fullstack developer</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/resume-example.pdf')"
+            >
+              Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="linkedin profile"
+              class="icon"
+              onclick="location.href='https://linkedin.com/in/ian-mukua-b78484261'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/Imukua'"
+            />
+          </div>
       </div>
-      <div class="btn-container">
-        <button
-          class="btn btn-color-2"
-          onclick="window.open('./assets/resume-example.pdf')"
-        >
-          Download CV
-        </button>
-        <button class="btn btn-color-1" onclick="location.href='./#contact'">
-          Contact Info
-        </button>
-      </div>
-      <div id="socials-container">
-        <img
-          src="./assets/linkedin.png"
-          alt="linkedin profile"
-          class="icon"
-          onclick="location.href='https://linkedin.com/in/ian-mukua-b78484261'"
-        />
-        <img
-          src="./assets/github.png"
-          alt="Github profile"
-          class="icon"
-          onclick="location.href='https://github.com/Imukua'"
-        />
-      </div>
+      
     </section>
 
     <script src="script.js"></script>
