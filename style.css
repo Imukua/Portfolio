@@ -6,8 +6,9 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
 }
+
 
 html {
     scroll-behavior: smooth;            
@@ -355,15 +356,17 @@ article .icon {
   position: relative;
 }
 
-.color--container{
+.color-container{
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250 );
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  
 }
 
 .project-image {
   border-radius: 2rem;
-  height: 90%;
-  width: 90%;
+  height: 60%;
+  width: 60%;
 }
 
 .project-title {
