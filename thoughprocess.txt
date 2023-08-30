@@ -1,0 +1,4 @@
+#Add glosssy background fro website
+#make a dark moded site
+#make beautiful animations for project page
+#use variabls for color palletes
